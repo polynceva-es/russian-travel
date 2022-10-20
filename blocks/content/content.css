@@ -1,0 +1,26 @@
+.content {
+  grid-area: content;
+
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  row-gap: 92px;
+  grid-template-areas:
+  "lead"
+  "intro"
+  "photo-grid"
+  "places"
+  "cover";
+}
+
+@media (max-width: 1023px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .content {
+    row-gap: 64px;
+  }
+}

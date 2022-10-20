@@ -1,0 +1,29 @@
+.intro {
+  grid-area: intro;
+
+  max-width: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 690px;
+  padding-left: 148px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width: 768px){
+  .intro {
+    padding: 0 24px ;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    padding: 0 16px;
+  }
+}

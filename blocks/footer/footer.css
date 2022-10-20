@@ -1,0 +1,23 @@
+.footer {
+  grid-area: footer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1184px;
+  min-height: 18px;
+  padding: 90px 48px 24px 48px;
+}
+
+@media (max-width: 1023px) {
+  .footer {
+    padding: 88px 24px 24px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    padding: 64px 118px 24px 16px;
+  }
+}

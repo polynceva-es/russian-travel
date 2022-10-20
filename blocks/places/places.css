@@ -1,0 +1,21 @@
+.places {
+  grid-area: places;
+
+  display: grid;
+  justify-items: center;
+  row-gap: 80px;
+ }
+
+
+@media (max-width: 1023px) {
+  .places {
+    row-gap: 73px;
+   }
+}
+
+@media (max-width: 767px) {
+  .places {
+    row-gap: 50px;
+   }
+}
+

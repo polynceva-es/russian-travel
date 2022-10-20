@@ -1,0 +1,29 @@
+.header {
+  grid-area: header;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding: 28px 48px 56px 48px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 28px 48px 48px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 28px 24px 48px 24px;
+   }
+}
+
+@media (max-width: 320px) {
+  .header {
+    padding: 16px 16px 48px 16px;
+    min-height: 42px;
+  }
+}
+
