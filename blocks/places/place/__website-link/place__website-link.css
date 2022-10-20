@@ -1,4 +1,4 @@
-.website__link {
+.place__website-link {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -9,7 +9,7 @@
   min-height: min-content;
 }
 
-.website__link:hover {
+.place__website-link:hover {
   opacity: 0.8;
   transition: opacity 1s;
 }
