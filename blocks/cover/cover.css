@@ -1,4 +1,24 @@
 .cover {
-grid-area: cover;
+  width: calc(100% - 96px);
+  min-height: 740px;
+
+  margin: 0 auto;
+
+  background-image: url(../../images/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+@media (max-width: 1279px) {
+  .cover{
+    width: 100%;
+    min-height: calc(100vw* 640 / 1024);
+  }
+}
+
+@media (max-width: 320px) {
+  .cover{
+    background-image: url(../../images/cover__background_small.jpg);
+  }
+}

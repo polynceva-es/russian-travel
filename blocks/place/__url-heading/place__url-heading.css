@@ -8,6 +8,7 @@
   min-height: min-content;
   margin: 0 0 12px 0;
   color: #AAAAAA;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1023px) {

@@ -1,6 +1,4 @@
 .lead {
-  grid-area: lead;
-
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,6 +1,4 @@
 .intro {
-  grid-area: intro;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
