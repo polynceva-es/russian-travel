@@ -9,7 +9,6 @@
 
 @media (max-width: 767px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 1;
     text-align: left;
   }

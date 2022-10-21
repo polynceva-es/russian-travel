@@ -1,6 +1,5 @@
 .place__website {
   max-width: 456px;
-  min-height: 46px;
   display: flex;
   flex-direction: column;
   justify-content: end;

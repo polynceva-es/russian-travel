@@ -17,9 +17,4 @@
   margin: 0 auto;
 
   display: grid;
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas:
-  "header"
-  "content"
-  "footer";
 }
