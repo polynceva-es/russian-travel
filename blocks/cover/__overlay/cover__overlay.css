@@ -1,4 +1,4 @@
-.cover__overlay {
+/* .cover__overlay {
   width: 100%;
   height: 100%;
 
@@ -16,5 +16,62 @@
 .cover__overlay:hover{
   background-color: rgba(42, 44, 47, 0.8);
   transition: background-color 1s;
+} */
+
+.cover__overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 740px;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 20px;
+
+  background-image: url(../../../images/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+
+  z-index: 1;
 }
 
+.cover__overlay::before {
+  content: '';
+  background: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* z-index: -1; */
+  transition: 0.5s;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+}
+
+@media (max-width: 1124px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 984px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 568px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
+}

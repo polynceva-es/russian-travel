@@ -1,4 +1,4 @@
-.cover {
+/* .cover {
   width: calc(100% - 96px);
   min-height: 740px;
 
@@ -21,4 +21,8 @@
   .cover{
     background-image: url(../../images/cover__background_small.jpg);
   }
+} */
+
+.cover {
+
 }

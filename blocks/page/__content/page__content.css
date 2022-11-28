@@ -1,0 +1,23 @@
+.page__content {
+margin-top: 53px;
+margin-bottom: 92px;
+}
+
+@media (max-width: 1124px) {
+  .page__content {
+    margin-top: 45px;
+    }
+}
+
+@media (max-width: 984px) {
+  .page__content {
+    margin-bottom: 88px;
+    }
+}
+
+@media (max-width: 568px) {
+  .page__content {
+    margin-top: 48px;
+    margin-bottom: 64px;
+    }
+}
