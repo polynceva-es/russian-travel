@@ -1,4 +1,5 @@
 # Проектная работа "Путешествия по России"
+![image](https://github.com/polynceva-es/russian-travel/blob/main/Russian%20travel.gif)
 
 ## 1. Описание проекта
 
